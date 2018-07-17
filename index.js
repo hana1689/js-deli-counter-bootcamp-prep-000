@@ -37,6 +37,6 @@ function currentLine(line)
     {
       string += `${i + 1}. ${line[i]}, `
     }
-    return `The line is currently: ${string.slice(0,-1)}`
+    return `The line is currently: ${string.slice(0,-2)}`
   }
 }
