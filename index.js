@@ -35,9 +35,9 @@ function currentLine(line)
   {
     for (let i = 0; i < line.length; i++)
     {
-      string += `${i + 1}. ${line[i]}, `
+      string += `${i + 1}. ${line[i]},`
     }
-    string.substr(string[string.length - 1])
+    string.pop()
     return `The line is currently: ${string}`
   }
 }
