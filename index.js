@@ -1,7 +1,7 @@
 function takeANumber(katzDeliLine, customername)
 {
   var string
-  if (katzDeliLine.length == 0)
+  if (katzDeliLine.length === 0)
   {
     katzDeliLine.push(customername)
     string = `Welcome, ${customername}. You are number 1 in line.`
@@ -15,7 +15,7 @@ function takeANumber(katzDeliLine, customername)
 }
 function nowServing(katzDeliLine)
 {
-  if (katzDeliLine.length == 0)
+  if (katzDeliLine.length === 0)
   {
     return "There is nobody waiting to be served!"
   }
