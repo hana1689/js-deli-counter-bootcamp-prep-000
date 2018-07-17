@@ -37,6 +37,7 @@ function currentLine(line)
     {
       string += `${i + 1}. ${line[i]}, `
     }
+    string.split()
     return `The line is currently: ${string}`
   }
 }
