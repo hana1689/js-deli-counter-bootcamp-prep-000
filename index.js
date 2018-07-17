@@ -35,7 +35,7 @@ function currentLine(line)
   {
     for (let i = 0; i < line.length; i++)
     {
-      string += `${i + 1}. ${line[i]},`
+      string += `${i + 1}. ${line[i]}, `
     }
     string.slice(string[string.length])
     return `The line is currently: ${string}`
